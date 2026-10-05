@@ -1,0 +1,11 @@
+09-13 06:27:00.938 25086 25191 I Pehredaar: selftest[0] phone 0.7483 laptop 0.7517  demo_scam_otp / en-US-ChristopherNeural
+09-13 06:27:00.955 25086 25191 I Pehredaar: selftest[1] phone 0.7855 laptop 0.7902  demo_scam_otp / en-GB-LibbyNeural
+09-13 06:27:00.968 25086 25191 I Pehredaar: selftest[2] phone 0.0068 laptop 0.0071  demo_legit_otp / en-US-ChristopherNeural
+09-13 06:27:00.983 25086 25191 I Pehredaar: selftest[3] phone 0.0608 laptop 0.0651  demo_legit_otp / en-GB-LibbyNeural
+09-13 06:27:00.997 25086 25191 I Pehredaar: selftest[4] phone 0.6897 laptop 0.6957  demo_scam_family / en-US-ChristopherNeural
+09-13 06:27:01.018 25086 25191 I Pehredaar: selftest[5] phone 0.6811 laptop 0.6950  demo_scam_family / en-GB-LibbyNeural
+09-13 06:27:01.036 25086 25191 I Pehredaar: selftest[6] phone 0.0326 laptop 0.0330  demo_legit_family / en-US-ChristopherNeural
+09-13 06:27:01.051 25086 25191 I Pehredaar: selftest[7] phone 0.0671 laptop 0.0729  demo_legit_family / en-GB-LibbyNeural
+09-13 06:27:01.065 25086 25191 I Pehredaar: selftest[8] phone 0.3702 laptop 0.3544  silence
+09-13 06:27:01.080 25086 25191 I Pehredaar: selftest[9] phone 0.0082 laptop 0.0116  white noise -30 dBFS
+09-13 06:27:01.080 25086 25191 I Pehredaar: selftest NPU encoder · CPU front end + heads: max |Δrisk| 0.016 over 10 windows · pattern 8/8

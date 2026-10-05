@@ -1,0 +1,16 @@
+[project]
+name = "edgeproof"
+version = "0.1.0"
+description = "Ship a model to the NPU, verified — catch the real traps of on-device Snapdragon deployment."
+requires-python = ">=3.10"
+dependencies = []          # stdlib only; shells out to the Android SDK (adb, aapt)
+
+[project.scripts]
+edgeproof = "edgeproof.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["edgeproof"]

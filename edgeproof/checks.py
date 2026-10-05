@@ -56,7 +56,8 @@ def check_skels(apk: ApkInfo, device: Device | None, soc_override: str | None,
 
     listed = [f"{l.name:28} {_mb(l.size)}" for l in sorted(unused, key=lambda l: -l.size)]
     excludes = "\n".join(f'        exclude "**/{l.name}"' for l in unused)
-    detail = [f"This device uses Hexagon V{arch} → {target} ({_mb(keep.size)})."
+    who = "This device" if device and device.htp_arch and not arch_override else "The target"
+    detail = [f"{who} runs Hexagon V{arch} → {target} ({_mb(keep.size)})."
               + (f"  [{source}]" if source else ""),
               f"{len(unused)} other-arch skels are bundled but never load on this SoC:",
               *["  " + s for s in listed],
